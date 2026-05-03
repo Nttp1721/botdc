@@ -1,11 +1,15 @@
 {
-  "name": "ff-score-bot",
+  "name": "xdorzy-ff-bot",
   "version": "1.0.0",
-  "description": "Discord Bot tính điểm Free Fire Custom",
+  "description": "Discord Bot tính điểm Free Fire",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.13.0",
-    "canvas": "^2.11.2",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "quick.db": "^9.1.7",
+    "better-sqlite3": "^9.0.0"
   }
 }
